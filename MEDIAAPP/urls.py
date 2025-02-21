@@ -26,5 +26,5 @@ from django.urls import path
 
 urlpatterns = [
     path('', views.home, name='home'),  # Root URL pattern
-    path('admin/', admin.site.urls),  # Admin URL pattern
+    # path('admin/', admin.site.urls),  # Admin URL pattern
 ]
