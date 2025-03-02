@@ -25,6 +25,9 @@ from django.urls import path
 
 
 urlpatterns = [
-    path('', views.home, name='home'),  # Root URL pattern
+    path('', views.home, name='home'), # Root URL pattern
+    path('signup',views.signup,name='signup'),
+    path('profile',views.profile, name='profile'),
+    path('signin',views.signin,name='signin'),
     # path('admin/', admin.site.urls),  # Admin URL pattern
 ]
