@@ -31,4 +31,4 @@ urlpatterns = [
     path('profile',views.profile, name='profile'),
     path('signin',views.signin,name='signin'),
     # path('admin/', admin.site.urls),  # Admin URL pattern
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
