@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'socialmediapp.apps.SocialmediappConfig',
+    'django.contrib.admin'
 ]
 
 MIDDLEWARE = [
